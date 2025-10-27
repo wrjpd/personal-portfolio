@@ -1911,6 +1911,22 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: #efaca3; /* vermelho Gmail */
 }
 
-/* .social-link[href*="github"] {
-  color: #000000; /* preto GitHub */
-} */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+  gap: 20px; /* espaço entre itens */
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column; /* ícone acima, texto abaixo */
+  align-items: center;
+}
+
+.skill-item i {
+  font-size: 3rem;
+  margin-bottom: 4px;
+}
+.skill-item i,
+.skill-item span,
+
