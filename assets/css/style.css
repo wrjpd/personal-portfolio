@@ -1023,7 +1023,7 @@ main {
 
 .project-category {
   color: var(--light-gray-70);
-  font-size: var(--fs-6);
+  font-size: 12px;
   font-weight: var(--fw-300);
 }
 

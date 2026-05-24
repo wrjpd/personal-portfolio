@@ -394,7 +394,8 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Junior Data Scientist</h4>
+              <h4 class="h4 timeline-item-title">Data Scientist II</h4>
+              <h4 class="h4 timeline-item-title">Data Scientist I</h4>
                <h4 style="font-weight: normal; font-size: 12px;" class="h4 timeline-item-title">Management Solutions</h4>
               <span>2024 — Present</span>
 
@@ -650,6 +651,10 @@
             <li class="filter-item">
               <button data-filter-btn>Forecasting</button>
             </li>
+              
+            <li class="filter-item">
+              <button data-filter-btn>Data engineering</button>
+            </li>
 
           </ul>
 
@@ -709,7 +714,7 @@
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     
-                    <ion-icon name="eye-outline"  onclick="window.open('https://github.com/wrjpd/Health-Insurance-Cross-Sell-Prediction/tree/main', '_blank')"> </ion-icon>
+                    <ion-icon name="eye-outline"> </ion-icon>
                   </div>
 
                   <img src="./assets/images/project-air-quality.jpg" alt="Air Quality" loading="lazy">
@@ -730,7 +735,7 @@
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     
-                    <ion-icon name="eye-outline"  onclick="window.open('https://github.com/wrjpd/Health-Insurance-Cross-Sell-Prediction/tree/main', '_blank')"> </ion-icon>
+                    <ion-icon name="eye-outline"> </ion-icon>
                   </div>
 
                   <img src="./assets/images/project-credit-risk.jpg" alt="Health Insurance" loading="lazy">
@@ -740,6 +745,27 @@
 
                 <p class="project-category-in-progress">
                   IN PROGRESS
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    
+                    <ion-icon name="eye-outline"> </ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-weather-pipeline.jpg" alt="Health Insurance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather Pipeline</h3>
+
+                <p class="project-category">
+                  This project is an end-to-end weather data pipeline built with Docker, Apache Airflow, Terraform, PostgreSQL, and LocalStack (AWS S3 simulation). It extracts weather data from the OpenWeatherMap API, stores raw data in partitioned Parquet files on S3, transforms and cleans the data, and loads it incrementally into PostgreSQL. The pipeline is orchestrated with Airflow DAGs, containerized with Docker Compose, and uses Terraform for infrastructure provisioning.
                 </p>
 
               </a>
